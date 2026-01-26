@@ -4,6 +4,8 @@
  * Provides various number-related utility functions
  */
 
+const SEPARATOR = '='.repeat(50);
+
 /**
  * Check if a number is prime
  */
@@ -73,7 +75,7 @@ function lcm(a, b) {
  */
 function main() {
     console.log('Number Utilities Program');
-    console.log('='.repeat(50));
+    console.log(SEPARATOR);
     
     // Prime numbers
     console.log('\nPrime Numbers from 1 to 30:');
